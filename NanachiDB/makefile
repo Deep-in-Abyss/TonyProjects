@@ -1,0 +1,2 @@
+test: slice.cpp test.cpp memtable.cpp iterator.cpp database.cpp utils/hash.cpp utils/coding.cpp
+	g++ -std=c++11 slice.cpp test.cpp memtable.cpp iterator.cpp database.cpp utils/hash.cpp utils/coding.cpp -o test
